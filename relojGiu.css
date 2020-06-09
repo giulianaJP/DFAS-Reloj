@@ -1,0 +1,83 @@
+
+.container{
+	border: 5px dashed pink;
+	background-image: url(fondo.jpg);
+	background-size: cover;
+	width: 800px;
+	height: 400px;
+}
+
+.pic{
+	/*display: inline-block;*/
+	margin: 10px;
+}
+
+.timer{
+	display: inline-block;
+	position: absolute;
+	top: 55px;
+	left: 360px;
+	margin: 20px;
+	padding: 20px;
+	background: rgba(255,255,255,.6);
+}
+
+p{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.boxDate{
+	background: rgba(255,255,255);
+	padding: 2px;
+	font-size: 2.3em;
+	text-align: center;
+	font-family: Hemondalisa;
+}
+
+.title2{
+	font-size: 1.8em;
+	color: rgb(184,142,0);
+	text-align: center;
+	text-shadow: 1px 2px 0px #FFF;
+	font-family: Hemondalisa;
+	font-weight: bold;
+	padding: 5px;
+
+}
+.title{
+	font-size: 33px;
+	color: rgb(184,142,0);
+	text-align: center;
+	text-shadow: 1px 2px 0px #FFF;
+	font-family: Hemondalisa;
+	line-height: 15px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.boxTime{
+	background: rgba(255,255,255);
+	margin-top: 10px;
+	/*padding: 10px;*/
+	font-size: 3.5em;
+	text-align: center;
+	font-family: Hemondalisa;
+
+}
+
+.second{
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Hemondalisa;
+}
+
+.ampm{
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Hemondalisa;
+}
